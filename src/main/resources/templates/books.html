@@ -12,7 +12,24 @@
 <body>
 <div class="container text-center">
 
-    <h1>ne USEPA DOKERIZIRANJE</h1>
+    <h1>Books</h1>
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col">Book title</th>
+            <th scope="col">Book category</th>
+            <th scope="col">Author</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="b: ${books}">
+            <td  th:text="${b.getBook_name()}"></td>
+            <td  th:text="${b.getBook_category()}"></td>
+            <td  th:text="${b.getAuthor()}"></td>
+        </tr>
+        </tbody>
+    </table>
 
 </div>
 </body>

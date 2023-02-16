@@ -33,6 +33,22 @@ public class Book {
         this.author = author;
     }
 
+    public Integer getBook_id() {
+        return book_id;
+    }
+
+    public String getBook_name() {
+        return book_name;
+    }
+
+    public String getBook_category() {
+        return book_category;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
     public Book() {
     }
 }
