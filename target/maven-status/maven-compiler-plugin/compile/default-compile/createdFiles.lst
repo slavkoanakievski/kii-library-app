@@ -1,6 +1,0 @@
-com\example\library\Service\BookService.class
-com\example\library\Web\BookController.class
-com\example\library\Service\impl\BookServiceImpl.class
-com\example\library\LibraryApplication.class
-com\example\library\Repository\BookRepository.class
-com\example\library\Model\Book.class
